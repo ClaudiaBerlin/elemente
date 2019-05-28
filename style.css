@@ -5,13 +5,31 @@ div{
 p{
 	background: black;
 	color:  white;
-	width: 400px;
 }
 
 span{
 	background: yellow;
+	display: inline-block;
+	height: 40px;
 }
 
 a{
 	background:  pink;
+}
+
+strong{
+	color: white;
+	display: inline-block;
+	width: 0px;
+	overflow: hidden;
+}
+
+p span{
+	display: inline;
+	background: transparent;
+}
+
+img{
+	position: relative;
+	transform: rotate(70deg);
 }
